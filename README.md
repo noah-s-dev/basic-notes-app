@@ -133,7 +133,7 @@ basic-notes-app/
 1. **Clone or Download the Project**
    ```bash
    # If using Git
-   git clone <repository-url>
+   git clone https://github.com/noah-s-dev/basic-notes-app.git
    cd basic-notes-app
    
    # Or download and extract to your web server directory
