@@ -8,7 +8,8 @@ define('DB_PASS', '');
 // Application configuration
 define('APP_NAME', 'Notes Pro');
 define('APP_VERSION', '2.0.0');
-define('BASE_URL', 'http://localhost');
+// Update this to match your project directory name if different from 'basic-notes-app'
+define('BASE_URL', 'http://localhost/basic-notes-app');
 define('UPLOAD_PATH', 'uploads/');
 define('MAX_FILE_SIZE', 10 * 1024 * 1024); // 10MB
 define('ALLOWED_FILE_TYPES', ['jpg', 'jpeg', 'png', 'gif', 'pdf', 'doc', 'docx', 'txt', 'md']);

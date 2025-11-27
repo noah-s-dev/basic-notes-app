@@ -149,13 +149,18 @@ basic-notes-app/
    ```
 
 3. **Configuration**
-   - Copy `includes/config.php` and update database credentials:
+   - Open `includes/config.php` and update database credentials:
    ```php
    define('DB_HOST', 'localhost');
    define('DB_NAME', 'notes_app');
    define('DB_USER', 'your_username');
    define('DB_PASS', 'your_password');
    ```
+   - Update `BASE_URL` to match your project directory name:
+   ```php
+   define('BASE_URL', 'http://localhost/basic-notes-app');
+   ```
+   - If your project is in a different directory, update the path accordingly (e.g., `http://localhost/your-project-name`)
 
 4. **File Permissions**
    ```bash
@@ -169,7 +174,8 @@ basic-notes-app/
    - Configure URL rewriting if needed
 
 6. **Access the Application**
-   - Navigate to your web server URL
+   - Navigate to `http://localhost/basic-notes-app` (or your configured BASE_URL)
+   - If using XAMPP/WAMP, ensure Apache is running on port 80 (default)
    - Register a new account or use the demo account:
      - Username: `demo_user`
      - Password: `password123`
